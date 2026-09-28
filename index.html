@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Techzaster — tech, phones, YouTube and a place for the community to hang out.">
+  <title>Techzaster — Tech, Phones & YouTube</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" data-route="home"><span>TECHZASTER</span></a>
+    <nav>
+      <a href="#home" data-route="home">Home</a>
+      <a href="#socials" data-route="socials">Socials</a>
+      <a href="#collection" data-route="collection">My Collection</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <div class="hero">
+        <h1>What's up guys, <span class="blue-name">Techzaster</span> here!</h1>
+        <p class="lead">Tech YouTuber, Tech Collector and sometimes a cause of disasters 💀</p>
+      </div>
+
+      <div class="content-grid">
+        <article class="card about-card">
+          <div class="card-label">01 / ABOUT ME</div>
+          <h2>So... who am I?</h2>
+          <p>I am Techzaster, i am 19 years old and i've been doing youtube videos since i was a fetus (okay thats a joke, i was just 8 years old when i started, so pretty much a whole decade of my life lol), ever since i was a kid i loved having phones and i just liked tech in general, heck i remember when i used to crop phones out of magazines and pretend to play with them and stuff even tho they we're just pieces of cropped paper... nonetheless it was fun!</p>
+          <p>and yeah 11 years later, i own over 100 phones, i make youtube videos about them and whenever disaster strucks and things dont go towards my plan... i sometimes crash out too lol</p>
+          <p>welp thats pretty much all about me, thanks for reading!</p>
+        </article>
+
+        <aside class="side-stack">
+          <div class="card fun-card">
+            <div class="card-label">02 / FUN FACT</div>
+            <div class="big-quote">“</div>
+            <p>People think i am russian or french by accent sometimes, lol</p>
+          </div>
+          <div class="card shrug-card">
+            <div class="card-label">03 / CURRENT STATUS</div>
+            <div class="shrug">¯\_(ツ)_/¯</div>
+            <p>Just shrugging mate</p>
+          </div>
+        </aside>
+      </div>
+
+    </section>
+
+    <section id="collection" class="page">
+      <div class="page-heading centered collection-heading">
+        <div class="eyebrow"><span class="dot"></span> TECH COLLECTION</div>
+        <h1>My Collection</h1>
+        <p>My current phone and tablet collection. I’ll update this list whenever I get a new device.</p>
+      </div>
+      <div id="collection-grid" class="collection-grid"></div>
+    </section>
+
+    <section id="socials" class="page">
+      <div class="page-heading centered">
+        <div class="eyebrow">Find me on:</div>
+        <h1>Socials</h1>
+        <p>Follow along, watch the videos, or come hang out with the community.</p>
+      </div>
+
+      <div class="social-grid">
+        <a class="social-card" href="https://www.youtube.com/@Techzaster" target="_blank" rel="noopener"><b>YouTube</b></a>
+        <a class="social-card" href="https://www.instagram.com/techzaster" target="_blank" rel="noopener"><b>Instagram</b></a>
+        <a class="social-card" href="https://www.tiktok.com/@techzaster" target="_blank" rel="noopener"><b>TikTok</b></a>
+        <a class="social-card" href="https://x.com/techzaster" target="_blank" rel="noopener"><b>X</b></a>
+        <a class="social-card discord" href="https://discord.gg/QKgvXBpX4Z" target="_blank" rel="noopener"><b>Discord Server</b></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> TECHZASTER</span>
+    <span>made with too many phones 📱</span>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
